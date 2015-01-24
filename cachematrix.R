@@ -21,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-
+#
 #this will use to solve matrix and put into cache
 #if the matrix already solve and unchange, it will read from cache
 cacheSolve <- function(x, ...) {
