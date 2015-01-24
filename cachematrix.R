@@ -2,6 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
+
 #this function will cache matrix
 
 
@@ -17,10 +18,11 @@ makeCacheMatrix <- function(x = matrix()) {
             list(set = set, get = get,
                  setsolve = setsolve,
                  getsolve = getsolve)
-}
+
 
 
 ## Write a short comment describing this function
+
 #
 #this will use to solve matrix and put into cache
 #if the matrix already solve and unchange, it will read from cache
