@@ -2,8 +2,8 @@
 ## functions do
 
 ## Write a short comment describing this function
-#copy from example
-#change "solve" to "solve"
+#this function will cache matrix
+
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
@@ -21,8 +21,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-#copy from example
-#change "solve" to "solve"
+
+#this will use to solve matrix and put into cache
+#if the matrix already solve and unchange, it will read from cache
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
 		       m <- x$getsolve()
